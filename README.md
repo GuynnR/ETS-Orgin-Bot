@@ -36,6 +36,7 @@ Use the available commands to manage your server, assign reaction roles, and get
     .reactionrole <message_id> <role_name> <emoji>: Create a reaction role assignment
     .setstatus <status_type> <status_message>: Set the bot status
     .statushistory: Show the history of bot status updates
+    .embed "Hello World" "This is an advanced embed message" color="#FF0000" thumbnail="https://example.com/thumbnail.jpg" image="https://example.com/image.jpg" footer="This is the footer" field1="Field 1 Value" field2="Field 2 Value"
    
    ## Installation
    pip install -r requirements.txt
